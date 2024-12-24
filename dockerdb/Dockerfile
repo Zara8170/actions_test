@@ -1,4 +1,4 @@
-FROM mysql
+FROM mysql:8.0
 
 COPY ./shop_usertbl.sql /docker-entrypoint-initdb.d
 
